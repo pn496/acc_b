@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>moi moi Bootstrap ver</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this page -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./js/html5shiv-printshiv.min.js"></script>
+      <script src="./js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="pageTop">
+
+    <header id="header" class="demo-header navbar navbar-default navbar-fixed-top" role="banner">
+      <div class="container">
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <h1 class="navbar-header">
+          <a href="/" class="navbar-brand"><img src="images/header_logo.png" height="40" width="92" alt="LOGO"></a>
+        </h1><!-- /.navbar-header -->
+        <nav class="navbar-collapse collapse" id="navigation" role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#pick">PICK UP</a></li>
+            <li><a href="#">ONLINE SHOP</a></li>
+            <li><a href="#">CONCEPT</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">SHOP LIST <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">新潟 ヘアサロン kiki 店舗展示品</a></li>
+              </ul><!-- /.dro-down-menu -->
+            </li><!-- /.dropdown -->
+          </ul><!-- /.nav -->
+          <form class="navbar-form" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="keyword">
+              <span class="input-group-btn"><button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button></span>
+            </div><!-- /.input-group -->
+          </form>
+        </nav><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </header><!-- /.navbar -->
+
+    <div class="demo-keyVisual jumbotron">
+      <div class="container">
+        <p><img class="img-responsive center-block" src="images/kv_txt.png" height="114" width="464" alt=""></p>
+        <div class="text-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger btn-lg">Accessories</button>
+            <button type="button" class="btn btn-danger btn-lg">Kiz</button>
+            <button type="button" class="btn btn-danger btn-lg">Order made</button>
+          </div><!-- /.btn-group -->
+        </div><!-- /.text-center -->
+      </div>
+    </div>
+
+    <div id="news" class="container" role="main">
+      <section>
+        <h2 class="demo-titleType1"><i class="glyphicon glyphicon-record text-titleIcon"></i>Sale Item <span class="badge">42</span></h2>
+        <div class="row margin-top-sm">
+          <div class="margin-top-md col-sm-4 text-center">
+            <p><a href="#"><img class="img-responsive center-block" src="images/sale_img.png" height="162" width="266" alt=""></a></p>
+            <p>特別セール品です</p>
+            <span class="label label-danger">20% OFF</span>
+            <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add Cart</button>
+          </div>
+          <div class="margin-top-md col-sm-4 text-center">
+            <p><a href="#"><img class="img-responsive center-block" src="images/sale_img_2.png" height="162" width="266" alt=""></a></p>
+            <p>特別セール品です</p>
+            <span class="label label-danger">20% OFF</span>
+            <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add Cart</button>
+          </div>
+          <div class="margin-top-md col-sm-4 text-center">
+            <p><a href="#"><img class="img-responsive center-block" src="images/sale_img_3.png" height="162" width="266" alt=""></a></p>
+            <p>特別セール品です</p>
+            <span class="label label-danger">20% OFF</span>
+            <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add Cart</button>
+          </div>
+        </div><!-- /.row -->
+      </section>
+
+      <section id="pick" class="margin-top-md">
+        <h2 class="demo-titleType1"><i class="glyphicon glyphicon-record text-titleIcon"></i>Pick Up</h2>
+        <div class="row">
+          <div class="margin-top-md col-xs-6 col-md-3"><a href="#"><img class="img-responsive center-block" src="images/pickup_bnr.png" height="124" width="263" alt=""></a></div>
+          <div class="margin-top-md col-xs-6 col-md-3"><a href="#"><img class="img-responsive center-block" src="images/pickup_bnr_2.png" height="124" width="263" alt=""></a></div>
+          <div class="margin-top-md col-xs-6 col-md-3"><a href="#"><img class="img-responsive center-block" src="images/pickup_bnr_3.png" height="124" width="263" alt=""></a></div>
+          <div class="margin-top-md col-xs-6 col-md-3 hidden-xs"><a href="#"><img class="img-responsive center-block" src="images/pickup_bnr_4.png" height="124" width="263" alt=""></a></div>
+          <div class="margin-top-md col-xs-6 col-md-3 visible-xs"><a href="#"><img class="img-responsive center-block" src="images/pickup_bnr_4.png" height="124" width="263" alt=""></a></div>
+        </div><!-- /.row -->
+        <p class="margin-top-sm text-right">
+          <button type="button" class="btn btn-info">More <i class="glyphicon glyphicon-chevron-right"></i></button>
+        </p>
+      </section>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-9 col-md-push-3 margin-top-md">
+          <section>
+            <h2 class="demo-titleType1"><i class="glyphicon glyphicon-record text-titleIcon"></i>New Arrivals</h2>
+            <div id="carousel-newArrivals" class="margin-top-md carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-newArrivals" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-newArrivals" data-slide-to="1"></li>
+                <li data-target="#carousel-newArrivals" data-slide-to="2"></li>
+              </ol><!-- /.carousel-indicators -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active"><a href="#"><img src="images/newarrivals_bnr.png" height="200" width="847" alt=""></a></div><!-- /.item -->
+                <div class="item"><a href="#"><img src="images/newarrivals_bnr_2.png"></a></div><!-- /.item -->
+                <div class="item"><a href="#"><img src="images/newarrivals_bnr_3.png"></a></div><!-- /.item -->
+              </div><!-- /.carousel-inner -->
+              <a class="left carousel-control" href="#carousel-newArrivals" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-newArrivals" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div><!-- /.carousel -->
+            <div class="row margin-top-sm">
+              <div class="col col-xs-12 text-right">
+                新商品<span class="hidden-xs">や入荷</span>のお知らせ　<button type="button" class="btn btn-default text-imgIcon" data-toggle="modal" data-target="#myModal" data-remote="form.html"><i class="glyphicon glyphicon-envelope"></i> Mail Magazine</button>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+              </div>
+            </div><!-- /.row -->
+          </section>
+          <section class="margin-top-md">
+            <h2 class="demo-titleType1"><i class="glyphicon glyphicon-record text-titleIcon"></i>Recommend Item</h2>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 margin-top-md text-center"><a href="#"><img class="img-responsive img-thumbnail" src="images/recommend_img.png" height="143" width="263" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="col-xs-12 col-sm-7 margin-top-md">
+                <h3 class="h5">Item Name</h3>
+                <p class="text-muted">牛柄 ピアス/イヤリング ¥1,100</p>
+                <button type="button" class="btn btn-warning">More <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></button>
+              </div>
+            </div><!-- /.row -->
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-sm-push-8 margin-top-md text-center"><a href="#"><img class="img-responsive img-thumbnail" src="images/recommend_img_2.png" height="143" width="263" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="col-xs-12 col-sm-7 col-sm-pull-4 col-sm-offset-1 margin-top-md">
+                <h3 class="h5">Item Name</h3>
+                <p class="text-muted">くまさんヘアゴム ¥880</p>
+                <button type="button" class="btn btn-success">More <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></button>
+              </div>
+            </div><!-- /.row -->
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 margin-top-md text-center"><a href="#"><img class="img-responsive img-thumbnail" src="images/recommend_img_3.png" height="143" width="263" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="col-xs-12 col-sm-7 margin-top-md">
+                <h3 class="h5">Item Name</h3>
+                <p class="text-muted">Gold X Cube ピアス/イヤリング ¥1,320</p>
+                <button type="button" class="btn btn-warning">More <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></button>
+              </div>
+            </div><!-- /.row -->
+          </section>
+        </div>
+        <div class="col-xs-12 col-md-3 col-md-pull-9 margin-top-md">
+          <nav>
+            <h2 class="demo-titleType1"><i class="glyphicon glyphicon-list text-titleIcon"></i>Category</h2>
+            <div class="demo-sideNav list-group">
+              <a href="#" class="list-group-item">accessories <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">kiz accessories <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">order made items <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Unique item <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Children also covered <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Anti-allergy <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Focus on earrings <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Strap <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Key holder <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+            </div>
+            <h2 class="demo-titleType1 margin-top-sm"><i class="glyphicon glyphicon-heart text-titleIcon"></i>Pick Up</h2>
+            <div class="demo-sideNav list-group">
+              <a href="#" class="list-group-item">Sale <span class="badge">14</span></a>
+              <a href="#" class="list-group-item">Recommend <span class="badge">14</span></a>
+              <a href="#" class="list-group-item">New Items <span class="badge">14</span></a>
+            </div>
+            <div class="list-group margin-top-md">
+              <a href="#" class="list-group-item"><i class="glyphicon glyphicon-user text-imgIcon"></i>　Login</a>
+              <a href="#" class="list-group-item"><i class="glyphicon glyphicon-envelope text-imgIcon"></i>　Mail Magazine</a>
+              <a href="#" class="list-group-item"><i class="glyphicon glyphicon-search text-imgIcon"></i>　Shop Search</a>
+              <a href="#" class="list-group-item"><i class="glyphicon glyphicon-comment text-imgIcon"></i>　Contact</a>
+              <a href="#" class="list-group-item"><i class="glyphicon glyphicon-question-sign text-imgIcon"></i>　Help</a>
+            </div>
+          </nav>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+
+    <div class="demo-btnPagetop margin-top-md">
+      <a href="#header" class="center-block text-center"><i class="glyphicon glyphicon-chevron-up center-block"></i>Page Top</a>
+    </div><!-- /.demo-btnPagetop -->
+
+    <footer class="demo-footer" role="contentinfo">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <p><strong>CategoryTitle</strong></p>
+            <div class="list-group margin-top-sm">
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p><strong>CategoryTitle</strong></p>
+            <div class="list-group margin-top-sm">
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p><strong>CategoryTitle</strong></p>
+            <div class="list-group margin-top-sm">
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p><strong>CategoryTitle</strong></p>
+            <div class="list-group margin-top-sm">
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+              <a href="#" class="list-group-item">Label <i class="glyphicon glyphicon-chevron-right text-arrowIcon"></i></a>
+            </div>
+          </div> -->
+        </div> <!-- /.row -->
+        <div class="text-center">
+          <small>Copyright &copy; 2022 takami.com All rights reserved.</small>
+        </div><!-- /.text-center -->
+      </div><!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/my-script.js"></script>
+
+  </body>
+</html>
